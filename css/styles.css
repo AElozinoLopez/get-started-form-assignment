@@ -36,12 +36,21 @@ img {
     border-style: none;
     border-bottom: 2px solid #6b8e23;
     line-height: 25px;
+    background-color: #f8f8f8;
 }
+
+.input-field:hover, .input-field:focus {
+    border: 2px solid #6b8e23;  
+    border-radius: 5px;    
+}
+
+
 
 .input {
     margin-bottom: 20px;
     color: #6b8e23;
     font-weight: bold;
+    
 }
 
 
