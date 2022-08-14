@@ -43,6 +43,10 @@ input[type="email"] {
     color: #666;
 }
 
+input[type="password"] {    
+    padding-left: 10px;    
+}
+
 .input-field {
     width: 98%;
     border-style: none;
