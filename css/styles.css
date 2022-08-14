@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+    color: #666;
+    background-color: #f8f8f8;
+}
+
+#container {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid red; /* This is for styling sake */
+}
+
+.get-started {
+   
+    width: 570px;
+    margin: 20px auto;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 98%;
+    border-style: none;
+    border-bottom: 2px solid #666;
+}
+
