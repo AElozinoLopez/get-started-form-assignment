@@ -31,6 +31,12 @@ img {
     border-radius: 10px;
 }
 
+input[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+    color: #666;
+}
+
 .input-field {
     width: 98%;
     border-style: none;
