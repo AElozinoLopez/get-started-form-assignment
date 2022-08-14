@@ -37,6 +37,12 @@ input[type="text"] {
     color: #666;
 }
 
+input[type="email"] {
+    font-size: 17px;
+    padding-left: 10px;
+    color: #666;
+}
+
 .input-field {
     width: 98%;
     border-style: none;
