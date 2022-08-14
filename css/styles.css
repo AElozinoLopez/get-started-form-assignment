@@ -16,7 +16,7 @@ body {
     min-width: 720px;
     margin: 10px auto;
     padding: 20px;
-    border: 2px solid #000; /* This is for styling sake */
+    border: 2px solid #6b8e23; /* This is for styling sake */
 }
 
 .get-started {
@@ -39,7 +39,7 @@ img {
     background-color: #f8f8f8;
 }
 
-.input-field:hover, .input-field:focus {
+.input-field:hover {
     border: 2px solid #6b8e23;  
     border-radius: 5px;    
 }
@@ -51,6 +51,27 @@ img {
     color: #6b8e23;
     font-weight: bold;
     
+}
+
+/* Styling the button */
+button {
+    width: 98%;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #6b8e23;
+    border: none;
+    color: whitesmoke;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {    
+    background-color: #436303;
+    color: #fff;    
 }
 
 
