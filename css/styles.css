@@ -1,8 +1,11 @@
+/* Applying CSS reset */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* Styling the body and container */
 
 body {
     font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
@@ -30,6 +33,8 @@ img {
     height: 300px;
     border-radius: 10px;
 }
+
+/* Styling the form */
 
 input[type="text"] {
     font-size: 17px;
@@ -90,5 +95,21 @@ button:hover {
     color: #fff;    
 }
 
+/* Styling the footer */
+
+.footer {
+    text-align: center;
+}
+
+span > a {
+    color: #6b8e23;
+    text-decoration: none; 
+    font-weight: bold;   
+}
+
+span > a:hover {
+    color:#436303;
+    border-bottom: 2px solid #436303;
+}
 
 
