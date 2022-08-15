@@ -20,6 +20,7 @@ body {
     margin: 10px auto;
     padding: 20px;
     border: 2px solid #6b8e23; /* This is for styling sake */
+    box-shadow: inset 0 0 10px #6b8e23;
 }
 
 .get-started {
